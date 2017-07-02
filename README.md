@@ -25,9 +25,8 @@
  Qualquer dúvida é só escrever!!
  
  yop@ig.com.br                                             
-         .  .:::.                                 
-           :(o o):  .  Yuri 02/07/17              
---------ooO--(_)--Ooo-----------------------------
+Yuri 02/07/17              
+
 
 
  
