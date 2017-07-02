@@ -1,29 +1,44 @@
-# arduinoProjects
-                                                                  
-Hi people!! This is my first Arduino repository!!               
-
-Starting with my basic and initial experience, but I hope       
-                                                                  
-Help who is starting to and contribute to growing experience!!  
-                                                                  
-Feel free to improve and add new experience!!                   
-                                                                  
-Thanks a lot for attention!!!
-
---------------------------------------------------------------------------
-
-First examples.
-
--> 1 LED with 1 BUTTON (jpg image of schema)
-
-0 - Switch State (One click: Turn On, Another Click: Turn Off).
-		
-1 - 5 clicks to Turn On. 3 clicks to Turn Off.
-
--> 4 LEDs with 4 BUTTONS (jpg image of schema)
-
-2 - Each button controls each LED blinks frequency. Button 1: blink 1s, Button 2: blink 2s
-																	                  Button 3: blink 3s, Button 4: blink 4s
-																										
-
+# Arduino e Cancela
+ 
+ Olá a todos // Hi Everybody!!
+ 
+ +---------------------------------------------------------++ 
+ +---------------------------------------------------------|| 
+ ||                                                        || 
+ ||   Exercício:                                           || 
+ ||                                                        || 
+ ||        - Cancela operando com:                         || 
+ ||                {Painel LCD}                            || 
+ ||                {Leitor de RFID}                        || 
+ ||                {Leds Indicativos}                      || 
+ ||                {Servo Motor}                           || 
+ ||                                                        || 
+ ||        No exemplo, existe um sensor óptico-reflexivo   || 
+ ||         que detecta a presença do carro. Ao detectar   || 
+ ||         liga o display LCD, ativa o leitor RFID e      || 
+ ||         liga o led Vermelho.                           || 
+ ||        Se o cartão estiver autorizado indica com Led   || 
+ ||         verde, exibe no Display e abre a cancela.      || 
+ ||        Se cartão nao autorizado. Indica no Display.    || 
+ ||        Saindo o carro da posição, desliga o Display e  || 
+ ||         desliga o leitor RFID.                         || 
+ ||                                                        || 
+ ||    Material Necessário:                                || 
+ ||      /--------------------------------------------\    || 
+ ||      | - Arduino UNO                              |    || 
+ ||      | - Display LCD 16x2                         |    || 
+ ||      | - Módulo I2C (poupar pinos no arduino UNO) |    || 
+ ||      | - RFID (RC522) + TAG                       |    || 
+ ||      | - Servo Tower Pro MG90S Microservo         |    || 
+ ||      | - (Canudinho = Cancela!! :) )              |    || 
+ ||      | - Led Vermelho / Led Verde                 |    || 
+ ||      | - Sensor Óptico Reflexivo (TRCT5000)       |    || 
+ ||      | - 3 resistores de 150 ohms                 |    || 
+ ||      | - 1 resistor de 10K ohms                   |    || 
+ ||      \--------------------------------------------/    || 
+ ||                                                        || 
+ ||          .  .:::.                                      || 
+ ||            :(o o):  .  Yuri 02/07/17                   || 
+ ++---------ooO--(_)--Ooo----------------------------------++
+ 
 "# Arduino_Cancela" 
