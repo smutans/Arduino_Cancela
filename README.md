@@ -2,43 +2,33 @@
  
  Olá a todos // Hi Everybody!!
  
- +---------------------------------------------------------++ 
- +---------------------------------------------------------|| 
- ||                                                        || 
- ||   Exercício:                                           || 
- ||                                                        || 
- ||        - Cancela operando com:                         || 
- ||                {Painel LCD}                            || 
- ||                {Leitor de RFID}                        || 
- ||                {Leds Indicativos}                      || 
- ||                {Servo Motor}                           || 
- ||                                                        || 
- ||        No exemplo, existe um sensor óptico-reflexivo   || 
- ||         que detecta a presença do carro. Ao detectar   || 
- ||         liga o display LCD, ativa o leitor RFID e      || 
- ||         liga o led Vermelho.                           || 
- ||        Se o cartão estiver autorizado indica com Led   || 
- ||         verde, exibe no Display e abre a cancela.      || 
- ||        Se cartão nao autorizado. Indica no Display.    || 
- ||        Saindo o carro da posição, desliga o Display e  || 
- ||         desliga o leitor RFID.                         || 
- ||                                                        || 
- ||    Material Necessário:                                || 
- ||      /--------------------------------------------\    || 
- ||      | - Arduino UNO                              |    || 
- ||      | - Display LCD 16x2                         |    || 
- ||      | - Módulo I2C (poupar pinos no arduino UNO) |    || 
- ||      | - RFID (RC522) + TAG                       |    || 
- ||      | - Servo Tower Pro MG90S Microservo         |    || 
- ||      | - (Canudinho = Cancela!! :) )              |    || 
- ||      | - Led Vermelho / Led Verde                 |    || 
- ||      | - Sensor Óptico Reflexivo (TRCT5000)       |    || 
- ||      | - 3 resistores de 150 ohms                 |    || 
- ||      | - 1 resistor de 10K ohms                   |    || 
- ||      \--------------------------------------------/    || 
- ||                                                        || 
- ||          .  .:::.                                      || 
- ||            :(o o):  .  Yuri 02/07/17                   || 
- ++---------ooO--(_)--Ooo----------------------------------++
+ Este é o exemplo de um Arduino Uno controlando uma
+  cancela através da autenticação de um cartão RFID.
+ 
+ Material necessário: 
+ 
+ - Arduino UNO                             
+ - Display LCD 16x2                        
+ - Modulo I2C (poupar pinos no arduino UNO)
+ - RFID (RC522) + TAG                      
+ - Servo Tower Pro MG90S Microservo        
+ - (Canudinho = Cancela!! :) )             
+ - Led Vermelho / Led Verde                
+ - Sensor Optico Reflexivo (TRCT5000)      
+ - 3 resistores de 150 Ohms                    
+ - 1 resistor de 10K Ohms
+ 
+ Fiz o esquema de ligação separadamente para cada
+  componente apenas para facilitar o entendimento e no final
+  fiz a ligação de todos.
+  
+ Qualquer dúvida é só escrever!!
+ 
+ yop@ig.com.br                                             
+         .  .:::.                                 
+           :(o o):  .  Yuri 02/07/17              
+--------ooO--(_)--Ooo-----------------------------
+
+
  
 "# Arduino_Cancela" 
