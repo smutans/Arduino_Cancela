@@ -25,9 +25,5 @@
  Qualquer dúvida é só escrever!!
  
  yop@ig.com.br                                             
-Yuri 02/07/17              
-
-
-
  
-"# Arduino_Cancela" 
+ Yuri 02/07/17              
